@@ -45,6 +45,7 @@ puts "Great! Add some items to your list."
 
 # Adds new list items (Hash with name and quantity) to
 # the items array (in the create_list hash)
+# Asks for 3 items, will replace later with loop
 list['items'].push(add_list_item())
 list['items'].push(add_list_item())
 list['items'].push(add_list_item())
